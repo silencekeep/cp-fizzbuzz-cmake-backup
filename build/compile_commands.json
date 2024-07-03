@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/56279/Desktop/cpFizzBuzz/build",
+  "command": "E:\\MinGW\\bin\\g++.exe  @CMakeFiles/cpFizzBuzz.dir/includes_CXX.rsp -g -o CMakeFiles\\cpFizzBuzz.dir\\src\\test.cpp.obj -c C:\\Users\\56279\\Desktop\\cpFizzBuzz\\src\\test.cpp",
+  "file": "C:/Users/56279/Desktop/cpFizzBuzz/src/test.cpp",
+  "output": "CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj"
+},
+{
+  "directory": "C:/Users/56279/Desktop/cpFizzBuzz/build",
+  "command": "E:\\MinGW\\bin\\g++.exe  @CMakeFiles/cpFizzBuzz.dir/includes_CXX.rsp -g -o CMakeFiles\\cpFizzBuzz.dir\\src\\utils.cpp.obj -c C:\\Users\\56279\\Desktop\\cpFizzBuzz\\src\\utils.cpp",
+  "file": "C:/Users/56279/Desktop/cpFizzBuzz/src/utils.cpp",
+  "output": "CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj"
+}
+]

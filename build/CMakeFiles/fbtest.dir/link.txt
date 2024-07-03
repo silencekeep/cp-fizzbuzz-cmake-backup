@@ -1,0 +1,3 @@
+"E:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\fbtest.dir/objects.a
+E:\MinGW\bin\ar.exe qc CMakeFiles\fbtest.dir/objects.a @CMakeFiles\fbtest.dir\objects1.rsp
+E:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\fbtest.dir/objects.a -Wl,--no-whole-archive -o fbtest.exe -Wl,--out-implib,libfbtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fbtest.dir\linkLibs.rsp

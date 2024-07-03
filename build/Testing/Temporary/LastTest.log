@@ -1,0 +1,18 @@
+Start testing: Jul 03 10:01 中国标准时间
+----------------------------------------------------------
+1/1 Testing: fbtest
+1/1 Test: fbtest
+Command: "C:/Users/56279/Desktop/cpFizzBuzz/src/test.cpp"
+Directory: C:/Users/56279/Desktop/cpFizzBuzz/build
+"fbtest" start time: Jul 03 10:01 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"fbtest" end time: Jul 03 10:01 中国标准时间
+"fbtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 03 10:01 中国标准时间
