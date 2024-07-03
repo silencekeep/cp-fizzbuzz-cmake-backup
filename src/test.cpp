@@ -19,6 +19,6 @@ TEST(testCase, test3)
 int main(int argc, char* argv[]){
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
-    cout << endl;
+    cout << 6 << endl;
     return 0;
 }
