@@ -138,12 +138,49 @@ cpFizzBuzz/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/build
 .PHONY : cpFizzBuzz/fast
 
+#=============================================================================
+# Target rules for targets named mytest
+
+# Build rule for target.
+mytest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mytest
+.PHONY : mytest
+
+# fast build rule for target.
+mytest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/build
+.PHONY : mytest/fast
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/test.obj: src/test.cpp.obj
 .PHONY : src/test.obj
 
 # target to build an object file
 src/test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/src/test.cpp.obj
 .PHONY : src/test.cpp.obj
 
 src/test.i: src/test.cpp.i
@@ -151,7 +188,7 @@ src/test.i: src/test.cpp.i
 
 # target to preprocess a source file
 src/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/src/test.cpp.i
 .PHONY : src/test.cpp.i
 
 src/test.s: src/test.cpp.s
@@ -159,7 +196,7 @@ src/test.s: src/test.cpp.s
 
 # target to generate assembly for a file
 src/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
 src/utils.obj: src/utils.cpp.obj
@@ -168,6 +205,7 @@ src/utils.obj: src/utils.cpp.obj
 # target to build an object file
 src/utils.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/src/utils.cpp.obj
 .PHONY : src/utils.cpp.obj
 
 src/utils.i: src/utils.cpp.i
@@ -176,6 +214,7 @@ src/utils.i: src/utils.cpp.i
 # target to preprocess a source file
 src/utils.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -184,6 +223,7 @@ src/utils.s: src/utils.cpp.s
 # target to generate assembly for a file
 src/utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpFizzBuzz.dir\build.make CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mytest.dir\build.make CMakeFiles/mytest.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 # Help Target
@@ -196,6 +236,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... cpFizzBuzz
+	@echo ... mytest
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 	@echo ... src/test.obj
 	@echo ... src/test.i
 	@echo ... src/test.s

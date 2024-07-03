@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/56279/Desktop/cpFizzBuzz/src/main.cpp" "CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj" "gcc" "CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj.d"
-  "C:/Users/56279/Desktop/cpFizzBuzz/src/utils.cpp" "CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj" "gcc" "CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj.d"
+  "C:/Users/56279/Desktop/cpFizzBuzz/src/test.cpp" "CMakeFiles/mytest.dir/src/test.cpp.obj" "gcc" "CMakeFiles/mytest.dir/src/test.cpp.obj.d"
+  "C:/Users/56279/Desktop/cpFizzBuzz/src/utils.cpp" "CMakeFiles/mytest.dir/src/utils.cpp.obj" "gcc" "CMakeFiles/mytest.dir/src/utils.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

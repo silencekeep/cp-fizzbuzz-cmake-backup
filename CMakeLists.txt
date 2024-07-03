@@ -12,9 +12,9 @@ link_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/lib
 )
 
-add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/test.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/utils.cpp)
-#add_executable(fbtest ${CMAKE_CURRENT_SOURCE_DIR}/src/test.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/utils.cpp)
+add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/utils.cpp)
+add_executable(mytest ${CMAKE_CURRENT_SOURCE_DIR}/src/test.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/utils.cpp)
 
-target_link_libraries(${PROJECT_NAME} gtest)
+target_link_libraries(mytest gtest)
 
-add_test(NAME test COMMAND ${PROJECT_NAME})
+add_test(NAME mytest COMMAND mytest)

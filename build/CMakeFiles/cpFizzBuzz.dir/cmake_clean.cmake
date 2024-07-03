@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj"
-  "CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj.d"
+  "CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj"
+  "CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj.d"
   "CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj"
   "CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj.d"
   "cpFizzBuzz.exe"

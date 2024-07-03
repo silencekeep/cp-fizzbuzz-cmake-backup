@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cpFizzBuzz.exe"
+			"path" : "mytest.exe"
 		},
 		{
-			"path" : "cpFizzBuzz.pdb"
+			"path" : "mytest.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -30,7 +30,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
@@ -77,7 +77,7 @@
 			]
 		}
 	],
-	"id" : "cpFizzBuzz::@6890427a1f51a3e7e1df",
+	"id" : "mytest::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -107,8 +107,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "cpFizzBuzz",
-	"nameOnDisk" : "cpFizzBuzz.exe",
+	"name" : "mytest",
+	"nameOnDisk" : "mytest.exe",
 	"paths" : 
 	{
 		"build" : ".",

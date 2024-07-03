@@ -15,6 +15,11 @@ TEST(testCase, test3)
 {
     EXPECT_EQ(fizzBuzz(3), "Fizz"); 
 }
+
+TEST(testCase, test5) 
+{
+    EXPECT_EQ(fizzBuzz(5), "Buzz"); 
+}
  
 int main(int argc, char* argv[]){
     testing::InitGoogleTest(&argc, argv);

@@ -68,20 +68,20 @@ include CMakeFiles/cpFizzBuzz.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpFizzBuzz.dir/flags.make
 
-CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj: CMakeFiles/cpFizzBuzz.dir/flags.make
-CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj: CMakeFiles/cpFizzBuzz.dir/includes_CXX.rsp
-CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj: C:/Users/56279/Desktop/cpFizzBuzz/src/test.cpp
-CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj: CMakeFiles/cpFizzBuzz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\56279\Desktop\cpFizzBuzz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj"
-	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj -MF CMakeFiles\cpFizzBuzz.dir\src\test.cpp.obj.d -o CMakeFiles\cpFizzBuzz.dir\src\test.cpp.obj -c C:\Users\56279\Desktop\cpFizzBuzz\src\test.cpp
+CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj: CMakeFiles/cpFizzBuzz.dir/flags.make
+CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj: CMakeFiles/cpFizzBuzz.dir/includes_CXX.rsp
+CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj: C:/Users/56279/Desktop/cpFizzBuzz/src/main.cpp
+CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj: CMakeFiles/cpFizzBuzz.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\56279\Desktop\cpFizzBuzz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj"
+	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj -MF CMakeFiles\cpFizzBuzz.dir\src\main.cpp.obj.d -o CMakeFiles\cpFizzBuzz.dir\src\main.cpp.obj -c C:\Users\56279\Desktop\cpFizzBuzz\src\main.cpp
 
-CMakeFiles/cpFizzBuzz.dir/src/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpFizzBuzz.dir/src/test.cpp.i"
-	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\56279\Desktop\cpFizzBuzz\src\test.cpp > CMakeFiles\cpFizzBuzz.dir\src\test.cpp.i
+CMakeFiles/cpFizzBuzz.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpFizzBuzz.dir/src/main.cpp.i"
+	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\56279\Desktop\cpFizzBuzz\src\main.cpp > CMakeFiles\cpFizzBuzz.dir\src\main.cpp.i
 
-CMakeFiles/cpFizzBuzz.dir/src/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpFizzBuzz.dir/src/test.cpp.s"
-	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\56279\Desktop\cpFizzBuzz\src\test.cpp -o CMakeFiles\cpFizzBuzz.dir\src\test.cpp.s
+CMakeFiles/cpFizzBuzz.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpFizzBuzz.dir/src/main.cpp.s"
+	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\56279\Desktop\cpFizzBuzz\src\main.cpp -o CMakeFiles\cpFizzBuzz.dir\src\main.cpp.s
 
 CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj: CMakeFiles/cpFizzBuzz.dir/flags.make
 CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj: CMakeFiles/cpFizzBuzz.dir/includes_CXX.rsp
@@ -100,13 +100,13 @@ CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.s: cmake_force
 
 # Object files for target cpFizzBuzz
 cpFizzBuzz_OBJECTS = \
-"CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj" \
+"CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj" \
 "CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj"
 
 # External object files for target cpFizzBuzz
 cpFizzBuzz_EXTERNAL_OBJECTS =
 
-cpFizzBuzz.exe: CMakeFiles/cpFizzBuzz.dir/src/test.cpp.obj
+cpFizzBuzz.exe: CMakeFiles/cpFizzBuzz.dir/src/main.cpp.obj
 cpFizzBuzz.exe: CMakeFiles/cpFizzBuzz.dir/src/utils.cpp.obj
 cpFizzBuzz.exe: CMakeFiles/cpFizzBuzz.dir/build.make
 cpFizzBuzz.exe: CMakeFiles/cpFizzBuzz.dir/linkLibs.rsp

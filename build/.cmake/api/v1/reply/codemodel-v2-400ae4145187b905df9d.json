@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "cpFizzBuzz",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cpFizzBuzz::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpFizzBuzz-Debug-e5f718bc1126158e8e7a.json",
+					"jsonFile" : "target-cpFizzBuzz-Debug-509fa5a842869b586e19.json",
 					"name" : "cpFizzBuzz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mytest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mytest-Debug-cf9da84f3dd14bfa1b73.json",
+					"name" : "mytest",
 					"projectIndex" : 0
 				}
 			]
