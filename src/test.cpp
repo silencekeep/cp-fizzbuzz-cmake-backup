@@ -20,5 +20,6 @@ int main(int argc, char* argv[]){
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
     cout << 6 << endl;
+    cerr << argc << endl;
     return 0;
 }
